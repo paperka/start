@@ -1,0 +1,65 @@
+
+
+.menu{
+    display: none;
+    opacity:0;
+    transition:all 1s;
+    }
+    
+    .hidden-menu-ticker:checked ~ .menu {
+        display: block;
+      opacity:1;
+      transition: 0.5c;}
+/*надо редактировать зависимость*/
+
+
+
+
+
+/*стиль кнопочки*/
+
+.hidden-menu{
+    
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+    margin: 5px;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 8px;
+    border: outset;
+}
+    
+.button {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    border: none;
+    
+    
+}
+.img:hover{
+    border-style: outset;
+    border-color: red;
+    border-radius: 50%;
+    transition: 0.5c;
+}
+
+.img { 
+    width: 40px; 
+    height: 40px;
+    border: outset;
+}
+
+.hidden-menu-ticker {
+    width: 30px;
+    height: 30px;
+}
+
+
